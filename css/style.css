@@ -3,15 +3,6 @@
     box-sizing: border-box; 
 }
 
-:root {
-    --overlay: rgba(0,0,0,.5);
-    --text: #fff;
-}
-
-html, body { 
-    height: 100%;
- }
-
 body {
     font-family: 'Arial', sans-serif;
     background: #000;
@@ -32,7 +23,7 @@ input[type="radio"] {
      pointer-events: none;
      }
 
-/* Slides rail */
+/* Slides  */
 .slides {
     display: flex;
     width: 1200%;
@@ -96,7 +87,11 @@ th {
 
 
 /* Arrows */
-.arrows { pointer-events: none; }
+.arrows { 
+    pointer-events: none;
+
+ }
+ 
 .arrows label {
     position: absolute;
     top: 50%;
